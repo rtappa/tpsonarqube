@@ -18,6 +18,8 @@ def hello():
 def hello_user(username):
     return 'Salut %s ! :) \n' % username
 
+#test
+
 @app.route("/contact")
 def page_contact():
     return render_template("contact.html")
