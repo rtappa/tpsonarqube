@@ -16,7 +16,7 @@ def hello():
 
 @app.route('/hello/<username>')
 def hello_user(username):
-    return 'Salut %s! :) \n' % username
+    return 'Salut %s ! :) \n' % username
 
 @app.route("/contact")
 def page_contact():
@@ -28,4 +28,4 @@ def page_a_propos():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', port='5000', debug=True)
