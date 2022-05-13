@@ -18,7 +18,7 @@ def hello():
 def hello_user(username):
     return 'Salut %s ! :) \n' % username
 
-#test
+#test2
 
 @app.route("/contact")
 def page_contact():
